@@ -1,0 +1,183 @@
+.text-center {color: #7C6E98;
+/* font-family: 'Indie Flower', cursive; */
+font-size: 350%;
+
+/* font-family: 'Indie Flower', cursive;
+*/
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Unica One', cursive;
+}
+
+.line {
+/*   border-color: mediumpurple;
+size: 50px;
+    border-style: inset;
+    border-style: dashed;
+    border-width: 1px;
+    border-align: center;
+    width:50%;
+   */
+   overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #7C6E98;
+    text-align: center;
+    width: 50%;
+    border-color: #440066;
+}
+
+.line:after {
+    content: "❉";
+    color: #7C6E98;
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #ffffe6;
+}
+.overall {
+  background-color: #ffffe6;
+}
+
+.first-image{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 400px;
+    width: 600px;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.card {
+/*     position: absolute; */
+    bottom: 400px;
+    left: 175px;
+    border: dotted;
+    word-wrap: break-word; 
+    width: 200px;
+    font-size: 70%;
+    font-family: 'Unica One', cursive;
+    color:#aa80ff;
+    background-color: #aa80ff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.closer{
+  text-align: center;
+}
+
+.welcome{
+  text-align: center;
+  color: #7C6E98;
+  font-family: 'Unica One', cursive;
+  font-size: 185%;
+}
+
+.lemon_lavender{
+    column-count: 2;
+    color: black;
+    position: center;
+}
+.text1{
+  border: dotted;
+  width: 250px;
+  height: 50px;
+  color: #4A3D63;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.description1{
+  border: solid 1px;
+  width: 500px;
+  font-size: 15px;
+  color: #4A3D63;
+}
+
+.whoweare{
+  
+  width: 800px;
+  font-size: 15px;
+  color: #4A3D63;
+  font-family: 'Slabo 27px', serif;
+  margin: auto;
+  width: 50%;
+  border: 1px solid;
+  padding: 10px;
+}
+
+
+
+.text2{
+  border: dotted;
+  width: 400px;
+  height: 100px;
+  color: #4A3D63;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 70px;
+}
+
+.description2{
+  border: solid 1px;
+  width: 500px;
+  font-size: 15px;
+  color: #4A3D63;
+  margin-left: 70px;
+}
+
+.choc-chip-brownie{
+    column-count: 2;
+    color: black;
+    position: center;
+}
+
+.text4{
+  border: dotted;
+  width: 200px;
+  height: 50px;
+  color: #4A3D63;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 70px;
+}
+
+.welcome-text{
+  width: 800px;
+  font-size: 15px;
+  color: #4A3D63;
+  font-family: 'Slabo 27px', serif;
+  margin: auto;
+  width: 50%;
+  /*border: 1px solid;*/
+  padding: 10px;
+}
+
+.tagline{
+    text-align: center;
+    color: #7C6E98;
+    font-family: 'Unica One', cursive;
+    font-size: 25px;
+}
+
+.healthdescription{
+    text-align: center;
+    color: #7C6E98;
+    font-family: 'Unica One', cursive;
+    font-size: 15px;
+}
